@@ -26,14 +26,14 @@ p {
 font-size: 25px;
 }
 
-.sale-price span {
+.sale-price {
     font-family:'Fraunces', serif;
     font-weight: 700;
     color:hsl(158, 36%, 37%);
     font-size: 35px;
 }
 
-.orginal-price span {
+.original-price {
      font-family: 'Montserrat', sans-serif;
      color:black;
      font-size: 20px;
