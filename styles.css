@@ -83,3 +83,8 @@ button {
      object-fit: cover;
      height: 20vh;
 }
+
+footer {
+     font-family: 'Montserrat', sans-serif;
+     text-align: center;
+}
