@@ -4,7 +4,6 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
-    width:100%;
 }
 
 h1, p {
@@ -14,7 +13,7 @@ h1, p {
 h1 {
    text-transform: uppercase;
    letter-spacing: 1rem;
-    font-size: 15px;
+   font-size: 15px;
 }
 
 h2 {
@@ -24,7 +23,7 @@ h2 {
 }
 
 p {
-font-size: 25px;
+    font-size: 25px;
 }
 
 .sale-price {
@@ -67,6 +66,7 @@ button {
     margin: 50px;
     overflow: hidden;
     flex-wrap: wrap;
+   
 }
 
 .product-info {
@@ -77,14 +77,15 @@ button {
     gap: 0px;
     text-align: left;
     padding:20px;
+    justify-content: center;
 }
 
 .product-image img {
      object-fit: cover;
-     height: 20vh;
 }
 
 footer {
      font-family: 'Montserrat', sans-serif;
      text-align: center;
+     padding-bottom: 15px;
 }
