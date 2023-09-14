@@ -4,6 +4,7 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
+    width:100%;
 }
 
 h1, p {
@@ -63,9 +64,9 @@ button {
     background-color: white;
     border-radius: 10px;
     align-items: center;
-    margin:50px 100px;
-    gap:30px;
+    margin: 50px;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .product-info {
@@ -75,6 +76,7 @@ button {
     flex-grow: 1;
     gap: 0px;
     text-align: left;
+    padding:20px;
 }
 
 .product-image img {
